@@ -1,0 +1,17 @@
+{
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pydocstyleEnabled": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.pylintArgs": [
+        "--disable=no-member,line-too-long,missing-docstring"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305,E501",
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
